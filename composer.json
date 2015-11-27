@@ -1,0 +1,22 @@
+{
+    "name": "bdart/yii2-mailchimp",
+    "description": "This extension enables you to send mails via mailchimp.",
+    "type": "yii2-extension",
+    "keywords": ["bdart", "yii2", "extension", "yii2-extension", "Yii2 Extension", "MailChimp", "mailchimp"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Daniel",
+            "homepage": "http://dfiebig.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "mailchimp/mailchimp": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bdart\\mailchimp\\": ""
+        }
+    }
+}
